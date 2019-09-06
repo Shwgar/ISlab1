@@ -3,12 +3,12 @@
 
 void uart_init(void);
 
-void uart_putchar(char chr);
+static void uart_putchar(char chr);
 void uart_putstr(const char *str);
 
-char uart_getchar(void);
+static char uart_getchar(void);
 
-void uart_echo(void);
+static void uart_echo(void);
 
 void uart_blink(void);
 
